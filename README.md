@@ -9,7 +9,7 @@ It's located in Plugins>Utilities>Alert.
 ![image|690x169](https://aws1.discourse-cdn.com/business4/uploads/imagej/original/3X/b/c/bc6bd448e0a3e57796806eca5a0d7a1ca7324792.png) 
 
 * Choose object to apply alert to from status bar or active image.
-* Choose color to apply
+* Choose color to apply. Use named colors like Red, Green, Magenta... or hex colors in the form #9e8bff
 * Use a duration>0 for just flashing the color. 500 will change the color for 500 ms.
 * Or use duration<=0 to change the color permanently.
 
@@ -20,5 +20,6 @@ In a macro, use something like:
 
 ```
 run("Blobs (25K)");
-run("Alert ", "object=Image color=Green duration=1000");
+run("Alert ", "object=Image color=Green duration=500");
+run("Alert ", "object=Status color=#9e8bff duration=1000");
 ```
