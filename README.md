@@ -1,4 +1,4 @@
-# alert
+# Alert
 
 "Alert" is an ImageJ plugin that allows to draw user attention on the status bar or on specific image windows by permanently or temporarily giving those objects a chosen color.
 
